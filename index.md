@@ -4,7 +4,7 @@ icon: rel-file-path
 authors:
   - name: Farrelle
     link: https://twitter.com/caffe_soft
-    avatar: assets/cartikiss.gif
+    avatar: https://avatars.githubusercontent.com/u/202752610
 date: 2023-08-26
 ---
 
