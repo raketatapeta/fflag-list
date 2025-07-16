@@ -133,13 +133,6 @@ order: -7
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
-### Mesh Noclip ✨
-@tyetonix
-```json
-{
-    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
-}
-```
 ### Slide on Terrain/Meshes
 @tyetonix
 ```json
