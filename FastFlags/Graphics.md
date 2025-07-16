@@ -247,6 +247,20 @@ order: -3
     "DFIntMaxFrameBufferSize": "4"
 }
 ```
+### Average Frame Delay
+```json
+{
+    "DFIntMaxAverageFrameDelayExceedFactor": "3"
+}
+```
+### Average Frame Delay + Frame Buffer
+```json
+{
+    "DFIntMaxFrameBufferSize": "1",
+    "FIntInterpolationAwareTargetTimeLerpHundredth": "100",
+    "DFIntMaxAverageFrameDelayExceedFactor": "0"
+}
+```
 ### Low Quallity Terrain Textures
 > [!TIP]
 > **4 for less quality 16, 32, 64 for higher quality**
