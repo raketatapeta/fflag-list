@@ -24,14 +24,15 @@ order: -7
 ### Enhanced Wallhopping
 ```json
 {
-    "DFIntMaximumFreefallMoveTimeInTenths": "9999999",
-    "DFIntMinimumFreefallMoveDistanceInTenths": "100",
-    "DFIntMaximumUnstickForceInGs": "-1",
-    "DFIntUnstickForceDecayInTenths": "1",
-    "DFIntUnstickForceEpsilonInHundredths": "1",
-    "DFFlagFixFreefall": "true",
-    "DFFlagFixFreefallCleanup": "true"
+   "DFIntMaximumFreefallMoveTimeInTenths": "9999999",
+   "DFIntMinimumFreefallMoveDistanceInTenths": "100",
+   "DFIntMaximumUnstickForceInGs": "-1",
+   "DFIntUnstickForceDecayInTenths": "1",
+   "DFIntUnstickForceEpsilonInHundredths": "1",
+   "DFFlagFixFreefall": "True",
+   "DFFlagFixFreefallCleanup": "True"
 }
+
 ```
 ### Tool Desync
 ```json
