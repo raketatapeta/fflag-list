@@ -25,7 +25,7 @@ description: Force lighting technologies on any game
 ### Unified Lighting
 ```json
 {
-    "FFlagRenderUnifiedLighting12": "True",
+    "FFlagRenderUnifiedLighting16": "False",
     "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
