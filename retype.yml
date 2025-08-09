@@ -17,7 +17,6 @@ output: .retype
 branding:
   title: fastflags.space
   logo: assets/cartii.jpg
-  label: "YVL"
 
   colors:
     label:
