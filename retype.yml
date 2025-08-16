@@ -28,7 +28,7 @@ branding:
 links:
   - text: Discord
     link: https://discord.gg/6zqNQTSkrg
-    icon: assets/Discord-Symbol-Blurple.svg
+    icon: people
   - text: Repository
     link: https://github.com/fastdotspace/fastflags.space
     icon: mark-github
