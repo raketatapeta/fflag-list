@@ -15,7 +15,7 @@ output: .retype
 # -----------------------------------------------------------------------------
 
 branding:
-  title: fastflags.space
+  title: fastflags.space :icon-markdown:
   logo: assets/cartii.jpg
 
   colors:
