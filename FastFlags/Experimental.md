@@ -1,6 +1,6 @@
 ---
 title: Experimental/Testing
-icon: ai-model
+icon: beaker
 order: -6
 ---
 
