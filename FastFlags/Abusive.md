@@ -140,7 +140,7 @@ order: -7
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
-# FREEZE
+### FREEZE
 ```json
 {
     "DFFlagDebugEnableInterpThrottle": "True" // Keybind is CTRL F7
@@ -178,7 +178,7 @@ return
 }
 ```
 ===
-# Slight Jump Boost
+### Slight Jump Boost
 ```json
 {
     "FIntSimDefaultFluidForceEnabled": "3"
