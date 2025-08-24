@@ -140,6 +140,23 @@ order: -7
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
+# FREEZE
+```json
+{
+    "DFFlagDebugEnableInterpThrottle": "True" // Keybind is CTRL F7
+}
+```
+```ahk
+#IfWinActive ahk_exe RobloxPlayerBeta.exe
+
+RButton::
+    Send, ^{F7}
+    KeyWait, RButton
+    Send, ^{F7}
+return
+
+#IfWinActive
+```
 ### Warp ✨
 ```json
 {
@@ -161,6 +178,12 @@ order: -7
 }
 ```
 ===
+# Slight Jump Boost
+```json
+{
+    "FIntSimDefaultFluidForceEnabled": "3"
+}
+```
 ### Wallglide ✨
 found by discord userid: 784354759841939506
  ```json
