@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808661114077">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.809311176740">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -31,12 +31,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../static/favicon.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.11.0.808661114077" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.809311176740" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808661114077" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.809311176740" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808661114077" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.808661114077" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.809311176740" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.809311176740" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -561,6 +561,28 @@
     &quot;FIntParallelDynamicPartsFastClusterBatchSize&quot;: &quot;-1&quot;
 }</code></pre>
 </doc-codeblock></div>
+<doc-anchor-target id="freeze" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#freeze">#</doc-anchor-trigger>
+        <span>FREEZE</span>
+    </h1>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+    &quot;DFFlagDebugEnableInterpThrottle&quot;: &quot;True&quot; // Keybind is CTRL F7
+}</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-autohotkey"><code v-pre class="language-autohotkey">#IfWinActive ahk_exe RobloxPlayerBeta.exe
+
+RButton::
+    Send, ^{F7}
+    KeyWait, RButton
+    Send, ^{F7}
+return
+
+#IfWinActive</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="warp-">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#warp-">#</doc-anchor-trigger>
@@ -593,6 +615,17 @@
 }</code></pre>
 </doc-codeblock></div>
 </doc-panel>
+<doc-anchor-target id="slight-jump-boost">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#slight-jump-boost">#</doc-anchor-trigger>
+        <span>Slight Jump Boost</span>
+    </h1>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+    &quot;FIntSimDefaultFluidForceEnabled&quot;: &quot;3&quot;
+}</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="wallglide-">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#wallglide-">#</doc-anchor-trigger>
@@ -667,7 +700,7 @@
     &quot;DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth&quot;: &quot;0&quot;
 }</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="abusive-visuals" class="break-words">
+<doc-anchor-target id="abusive-visuals">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#abusive-visuals">#</doc-anchor-trigger>
         <span>Abusive Visuals</span>
