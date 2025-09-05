@@ -2,8 +2,7 @@
 title: Information
 icon: rel-file-path	
 authors:
-  - name: Farrelle
-    link: https://twitter.com/caffe_soft
+  - name: john fastflags
     avatar: https://avatars.githubusercontent.com/u/202752610
 date: 2023-08-26
 ---
@@ -17,6 +16,8 @@ FastFlags are internal settings to quickly turn features on or off without needi
 <img src="assets/pbc.png" width="768">
 
 **fastflags.space** is a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
+
+all that money the money is the motive
 
 ---
 
