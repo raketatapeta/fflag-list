@@ -8,6 +8,11 @@ date: 2025-04-01
 
 <div align="center">
 
+### v9.1 [!badge variant="info" text="LATEST"]
+Released: 2025-09-01
+**There has been many updates but those were not logged**
+
+
 ### v8.1 [!badge variant="info" text="LATEST"]
 Released: 2025-08-01
 **There has been many updates but those were not logged**
